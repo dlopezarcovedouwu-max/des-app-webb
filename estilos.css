@@ -1,0 +1,60 @@
+/* Configuraciones generales */
+body {
+    background-color: #f4f1f7; /* Un blanco con un toque de lila muy suave */
+    color: #4a4a4a; /* Gris oscuro para que no canse la vista */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor para que el texto no se pegue a las orillas */
+section {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Títulos con personalidad */
+h1, h2, h3 {
+    color: #6a5acd; /* Un morado pizarra elegante (SlateBlue) */
+}
+
+/* Estilo para las imágenes (la galería) */
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fdfaff;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto cuando pasas el mouse por la imagen */
+img:hover {
+    transform: scale(1.02);
+}
+
+/* Enlaces (Botones y navegación) */
+a {
+    color: #9370db; /* Morado claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6a5acd;
+    text-decoration: underline;
+}
+
+/* Línea separadora suave */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0d0f0;
+    margin: 20px 0;
+}
